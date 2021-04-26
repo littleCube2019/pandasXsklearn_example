@@ -28,3 +28,13 @@
    顯示出分類錯誤的圖片  
 
 3. 餵入資料轉換成numpy的流程、將CNN結果交給下游KNN訓練的流程
+
+4. 使用scipy 旋轉資料，對資料增強
+
+# keras autoencoder
+以minist 手寫辨識做autoencoder
+
+1. 學習將層組成較大部分的"元件"，再用元件組成模組
+   並可以將元件輸出結果 (ie 權重、encoder的bottleneck輸出)  
+ 
+2. 學習autoencoder 架構、包括Dense 與 CNN  
