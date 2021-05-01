@@ -38,3 +38,12 @@
    並可以將元件輸出結果 (ie 權重、encoder的bottleneck輸出)  
  
 2. 學習autoencoder 架構、包括Dense 與 CNN  
+
+# Variational_AutoEncoder
+以minist 手寫辨識做VAE
+
+1. 學習自定義layer格式  
+
+2. 學習自定義model格式 (含整體架構、loss function)
+
+3. 學習VAE 架構
