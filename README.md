@@ -17,7 +17,13 @@
    * 用joblib存、載 模型參數  
    * ensemble learning 用法 
 
- 3. submit一個kaggle檔案的格式 
+3. submit一個kaggle檔案的格式 
+
+4. cross validation 與調參的例子
+   * 切分training data成n份
+   * 每次挑其中一份作dev，並記錄其對各參數結果
+   * 視覺化各參數表現
+   * 選出最好的參數
 
 # image_classification_example
 1. 學習使用tensorflow.keras
