@@ -27,11 +27,11 @@
 
 # image_classification_example
 1. 學習使用tensorflow.keras
-   * sequence , loss , compile , fit , predict 
-   * 使用基本NN 與 CNN  
+* sequence , loss , compile , fit , predict 
+* 使用基本NN 與 CNN  
 
 2. 使用plt顯示圖片的方法 
-   顯示出分類錯誤的圖片  
+顯示出分類錯誤的圖片  
 
 3. 餵入資料轉換成numpy的流程、將CNN結果交給下游KNN訓練的流程
 
@@ -53,3 +53,18 @@
 2. 學習自定義model格式 (含整體架構、loss function)
 
 3. 學習VAE 架構
+
+# keras_gensim_ptt_title_classifier
+以 ptt各版標題 去做 看版分類
+1. 學習使用 gensim 訓練word2Vec
+
+2. 學習使用 jieba套件 斷詞
+
+3. 句子用sliding windows 的方式改成input sequence   
+   A B C D E F G  ==>  size = 3   
+   A B C   
+     B C D   
+       C D E  ....  
+
+4. 使用LSTM 做classifier
+
